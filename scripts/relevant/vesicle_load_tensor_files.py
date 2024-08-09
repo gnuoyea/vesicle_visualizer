@@ -56,7 +56,7 @@ def visualize_data(neuron_mesh, vesicles_within_perimeter, vesicles_within_perim
     plotter.set_scale(zscale=0.001)
     plotter.set_scale(xscale=0.001)
     plotter.set_scale(yscale=0.001)
-    plotter.show_grid(xlabel='X axis (10 microns)', ylabel='Y axis (10 microns)', zlabel='Z axis (10 microns)')
+    plotter.show_grid(xtitle='X axis (10 microns)', ytitle='Y axis (10 microns)', ztitle='Z axis (10 microns)')
     plotter.show()
 
 def load_calculate_and_visualize_neuron_and_vesicles(neuron_file_path, vesicle_file_path, perimeter_distance_threshold_nm=1000):
